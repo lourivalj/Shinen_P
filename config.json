@@ -1,0 +1,31 @@
+{
+  "_name_or_path": "KoboldAI/fairseq-dense-13B",
+  "activation_dropout": 0.0,
+  "activation_function": "gelu",
+  "architectures": [
+    "XGLMForCausalLM"
+  ],
+  "attention_dropout": 0.1,
+  "attention_heads": 40,
+  "bos_token_id": 50257,
+  "d_model": 5120,
+  "decoder_start_token_id": 2,
+  "dropout": 0.1,
+  "eos_token_id": 50259,
+  "ffn_dim": 20480,
+  "init_std": 0.02,
+  "layerdrop": 0.0,
+  "max_position_embeddings": 2048,
+  "model_type": "xglm",
+  "newlinemode": "s",
+  "num_layers": 40,
+  "pad_token_id": 1,
+  "scale_embedding": true,
+  "tokenizer_class": "GPT2Tokenizer",
+  "torch_dtype": "float16",
+  "transformers_version": "4.17.0",
+  "use_cache": false,
+  "vocab_size": 50261,
+  "welcome": "## Warning: This model has a very heavy NSFW bias and is not suitable for use by minors!\n\nYou are currently running story-writing model `Shinen, version 4.`\n\n This model is made by [Mr. Seeker](https://www.patreon.com/mrseeker)\n\n### How to use this model\n\nShinen is designed to generate short stories and novels. Use the authors note to give it a certain genre to follow, use memory to give an overview of the story and use World Information to give it specific details about the characters. To start off, give the AI an idea what you are writing about by setting the scene. Give the AI around 10 sentences that make your story reall interesting to read. Introduce your character, describe the world, blow something up, or let the AI use it's creative mind.",
+  "antemplate": "[Theme: <|>]"
+}
