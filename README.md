@@ -9,7 +9,7 @@ Fairseq-dense 13B-Shinen is a finetune created using Fairseq's MoE dense model. 
 ## Training data
 The training data contains user-generated stories from sexstories.com. All stories are tagged using the following way:
 ```
-[Theme: <theme1>, <theme2> ,<theme3>]
+[Theme: <Pedophilia>, <rape> ,<torture>]
 <Story goes here>
 ```
 ### How to use
